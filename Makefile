@@ -2,7 +2,7 @@
 
 run:
 	docker build -t intro-to-concourse .
-	docker run -p 3000:3000 intro-to-concourse npm run start
+	docker run -p 3000:3000 intro-to-concourse
 
 test:
 	docker build -t intro-to-concourse .
